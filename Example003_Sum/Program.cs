@@ -1,9 +1,13 @@
-﻿Console.WriteLine("Введите число A");
-int numberA = Console.ReadLine();
-Console.WriteLine("Введите число B");
-int numberB = Console.ReadLine();
+﻿//Console.WriteLine("Введите число A");
+int numberA = new Random().Next(1, 200);
+Console.Write("Число A = ");
+Console.WriteLine(numberA);
+//Console.WriteLine("Введите число B");
+int numberB = new Random().Next(24, 90);
+Console.Write("Число B = ");
+Console.WriteLine(numberB);
 //int numberA = 1;
 //int numberB = 3;
 int result = numberA + numberB;
-Console.WriteLine("Сумма чсел A и B = ");
+Console.Write("Сумма чсел A и B = ");
 Console.WriteLine(result);
